@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <style>
+  body {
+    background-color: coral;}
+  </style>
   <body>
     <center>
     <form>
