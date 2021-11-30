@@ -1,18 +1,10 @@
 <?php
-function OpenCon()
- {
- $dbhost = "localhost";
- $dbuser = "root";
- $dbpass = " ";
- $db = "example";
- $conn = new_mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
+$conn = mysqli_connect('localhost', 'root', '', 'facebook_post');
 
- return $conn;
- }
-
-function CloseCon($conn)
- {
- $conn -> close();
+if (!$conn) {
+   die('Connection failed'. mysqli_connect_error(). ' - '. mysqli_connect_error());
+ }else {
+    echo "Connected successfully!";
  }
 
 ?>
