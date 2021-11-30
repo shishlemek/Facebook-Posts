@@ -16,7 +16,7 @@
 
       if($stmt = mysqli_prepare($link, $sql)){
         mysqli_stmt_bind_param($stmt, "s", $param_username);
-
+# pedal si da si znaesh :)
         $param_username = trim($_POST["username"]);
 
         if(mysqli_stmt_execute($stmt)){
