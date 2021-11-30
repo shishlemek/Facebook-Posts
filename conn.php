@@ -14,5 +14,5 @@ function CloseCon($conn)
  {
  $conn -> close();
  }
-
+#gei si da si razberesh :)s
 ?>
