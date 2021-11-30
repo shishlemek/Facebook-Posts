@@ -6,5 +6,5 @@ if (!$conn) {
  }else {
     echo "Connected successfully!";
  }
-
+#gei si da si razberesh :)s
 ?>
